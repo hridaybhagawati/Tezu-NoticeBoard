@@ -13,6 +13,8 @@
     "serve": "npm --prefix server run serve"
   },
   "dependencies": {
-    "dotenv": "^17.2.3"
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0"
   }
 }
