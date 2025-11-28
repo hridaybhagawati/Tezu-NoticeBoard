@@ -11,6 +11,8 @@
     "start": "npm --prefix server start",
     "build": "npm --prefix frontend run build",
     "serve": "npm --prefix server run serve"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3"
   }
 }
-
