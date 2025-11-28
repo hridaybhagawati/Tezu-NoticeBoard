@@ -1,0 +1,16 @@
+{
+  "name": "smart-campus-notice-board",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "server",
+    "frontend"
+  ],
+  "scripts": {
+    "dev": "npm --prefix server run dev",
+    "start": "npm --prefix server start",
+    "build": "npm --prefix frontend run build",
+    "serve": "npm --prefix server run serve"
+  }
+}
+
