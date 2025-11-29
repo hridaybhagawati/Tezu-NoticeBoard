@@ -1,17 +1,1 @@
-{ 
-  "type": "module",
-  "name": "smart-campus-notice-board",
-  "version": "1.0.0",
-  "private": true,
-  "workspaces": [
-    "server",
-    "frontend"
-  ],
-  "scripts": {
-    "dev": "npm --prefix server run dev",
-    "start": "npm --prefix server start",
-    "build": "npm --prefix frontend run build",
-    "serve": "npm --prefix server run serve"
-  }
-}
-
+{"type":"module","name":"smart-campus-notice-board","version":"1.0.0","private":true,"workspaces":["server","frontend"],"scripts":{"dev":"npm --prefix server run dev","start":"npm --prefix server start","build":"npm --prefix frontend run build","serve":"npm --prefix server run serve"},"dependencies":{"bcryptjs":"^3.0.3","cors":"^2.8.5","dotenv":"^17.2.3","express":"^5.1.0","express-validator":"^7.3.1","google-auth-library":"^10.5.0","helmet":"^8.1.0","jsonwebtoken":"^9.0.2","morgan":"^1.10.1","multer":"^2.0.2","nodemailer":"^7.0.11","pdfkit":"^0.17.2","sqlite3":"^5.1.7"}}
